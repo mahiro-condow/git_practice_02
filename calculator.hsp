@@ -15,7 +15,9 @@ gosub *init
     if op="+" : ans=A+B  ;tashizan
     if op="-" : ans=A-B  ;hikizan
     if op="*" : ans=A*B  ;kakezan
+    if OP="\\" : ans=A\B ;剰余算
     if op="/" : ans=A/B  ;warizan
+
 
     goto *main
 
