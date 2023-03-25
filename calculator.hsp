@@ -14,6 +14,7 @@ gosub *init
 *calc
     if op="+" : ans=A+B  ;tashizan
     if op="-" : ans=A-B  ;hikizan
+
     goto *main
 
 ;ボタンがクリックされたとき
