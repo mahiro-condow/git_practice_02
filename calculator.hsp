@@ -13,7 +13,7 @@ gosub *init
 ;答えの計算
 *calc
     if op="+" : ans=A+B  ;tashizan
-    if op="-" : ans=A-B  ;hikizan
+    if op="*" : ans=A*B  ;kakezan
 
     goto *main
 
